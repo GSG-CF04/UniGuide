@@ -39,9 +39,9 @@ header {
 }
 
 #most {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   margin-top: 0.5rem;
 }
 
@@ -74,8 +74,6 @@ input::-webkit-input-placeholder {
 }
 
 #input-field {
-  border: none;
-  flex: 1;
   border: none;
   display: flex;
   flex-direction: row;
