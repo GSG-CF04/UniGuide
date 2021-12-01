@@ -1,27 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-  }
-  header{
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.7vh;
+}
+#logo {
+  font-family: "Roboto", sans-serif;
+  color: #4096df;
+
+  font-size: 1.5rem;
+}
+
+.menuIcon {
+  font-size: 1.5rem;
+}
+.btn-universities {
+  width: 80vw;
+  height: 7vh;
+  border-radius: 16px;
+  background-color: #4096df;
+  border: none;
+  margin-top: 4vh;
+}
+.btn-a {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 1.3rem;
+  text-decoration-line: none;
+}
+.info-section {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 4vh;
+}
+
+.info-div {
+  margin-top: 2vh;
+  width: 80vw;
+  height: 40vh;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.P-icon {
+  margin-left: 1vw;
+  color: #0d161d;
+  font-size: 1.5rem;
+}
+.icons {
+  color: #0d161d;
+  opacity: 30%;
+  font-size: 30px;
+  padding-right: 5vw;
+}
+.country-info {
+  font-size: 2rem;
+}
+.row-info {
+  display: flex;
+  margin-top: 4vh;
+}
+.country-img {
+  width: 92vw;
+  height: 27vh;
+}
+
+@media (min-width: 1020px){
+  .info-section{
+    flex-direction: row;
     display: flex;
-    justify-content: center;
-   }
-   .header{
-     width: 90%;
+    align-items: center;
+    margin-top: 13vh;
+  }
+  .country-img{
+    width: 40%;
+    height:40%;
+  object-fit: cover;
+  margin-left: 4vw;
+  }
+   .all-info{
+     width: 70%;
      display: flex;
-     justify-content: space-between;
- margin-top: 3.7vh;
- 
- }
- #logo{
-   font-family: 'Roboto', sans-serif;
-   color: #4096df;
+     flex-direction: column;
+     align-items: center;
+   }
+   .btn-universities{
+    width: 30vw;
+    height: 7vh;
+   border-radius: 16px;
+    background-color: #4096DF;
+    border: none;
+    margin-top: 6vh;
    
-   font-size: 1.5rem;
- }
+  }
+  .info-div{
+    margin-top: 2vh;
+    width: 10vw;
+    height: 40vh;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  
- .menuIcon{
-   font-size: 1.5rem;
- }
+  }
+  .row-info{
+    display: flex;
+  margin-top: 4vh;
+
+  }
+  .country-info{
+    font-size: 3rem;
+    }
+}
