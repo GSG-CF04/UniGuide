@@ -1,27 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-  }
-  header{
-    display: flex;
-    justify-content: center;
-   }
-   .header{
-     width: 90%;
-     display: flex;
-     justify-content: space-between;
- margin-top: 3.7vh;
- 
- }
- #logo{
-   font-family: 'Roboto', sans-serif;
-   color: #4096df;
-   
-   font-size: 1.5rem;
- }
- 
- .menuIcon{
-   font-size: 1.5rem;
- }
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.7vh;
+}
+#logo {
+  font-family: "Roboto", sans-serif;
+  color: #4096df;
+  font-size: 1.5rem;
+}
+
+#menuIcon {
+  font-size: 1.5rem;
+}
+
+#image {
+  margin-bottom: 0%;
+  margin-top: 1.5rem;
+}
+
+#ima {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+#most {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+#search-icon {
+  font-size: 1.3rem;
+  margin: 5px 5px 0px 5px;
+  color: #a6a6a6;
+}
+
+#serach-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-content: center;
+  height: 35vh;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+}
+
+#input {
+  display: flex;
+  border: none;
+  flex: 1;
+  background-color: #f6f6f8;
+  height: 100%;
+}
+
+#input-field {
+  border: none;
+  flex: 1;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  border-radius: 1rem;
+  width: 90vw;
+  background-color: #f6f6f8;
+  padding: 10px;
+  margin-left: 0.8rem;
+}
+
+#most-popular {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: space-between;
+  width: 100%;
+  align-self: center;
+}
+
+#egypt {
+  background-image: url(../img/egypt.png);
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+
+#turkey {
+  background-image: url(../img/turkey.png);
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+
+#italy {
+  background-image: url(../img/italy.png);
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+
+#spain {
+  background-image: url(../img/spain.png);
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+
+.country {
+  position: relative;
+  top: 80px;
+  left: 15px;
+  margin-top: 30px;
+  color: white;
+  font-size: 1.2rem;
+  height: 5vh;
+}
+
+#egypt-trkey {
+  display: flex;
+  flex-direction: row;
+  height: 48%;
+  justify-content: space-around;
+}
+
+#italy-spain {
+  display: flex;
+  flex-direction: row;
+  height: 48%;
+  justify-content: space-around;
+}
