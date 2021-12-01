@@ -1,27 +1,133 @@
+/* 
+
+----- Table Of Contents -----
+
+1. Fonts
+   1-1 Montserrat
+   1-2 Roboto
+2. General Style
+3. Mobile Size
+   3-1 Header Style
+   3-2 Title Section Style
+   3-3 Cards Section Style
+4. Tablet Size - still in progress
+5. Desktop Size - still in progress
+
+
+*/
+
+
+/* ------------------ 1. Fonts ------------------ */
+
+
+/*  1-1 Montserrat  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+/*  1-2 Roboto  */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap');
+
+/* ------------------ 2. General Style  ------------------ */
 
 * {
     padding: 0;
     margin: 0;
-  }
-  header{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* ------------------ 3. Mobile Size Style  ------------------ */
+
+
+/* 3-1 Header Style */
+
+header {
     display: flex;
     justify-content: center;
-   }
-   .header{
-     width: 90%;
-     display: flex;
-     justify-content: space-between;
- margin-top: 3.7vh;
- 
- }
- #logo{
-   font-family: 'Roboto', sans-serif;
-   color: #4096df;
-   
-   font-size: 1.5rem;
- }
- 
- .menuIcon{
-   font-size: 1.5rem;
- }
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.7vh;
+}
+
+#logo {
+    font-family: 'Roboto', sans-serif;
+    color: #4096df;
+    font-size: 1.5rem;
+}
+
+.menuIcon {
+    font-size: 1.5rem;
+}
+
+
+/* 3-2 Title Section Style */
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin: 30px 0;
+}
+
+
+/* 3-3 Cards Section Style */
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+button {
+    border-radius: 16px;
+    padding: 30px 10px;
+    margin: 0 10px 15px 15px;
+    height: 120px;
+    border: none;
+}
+
+button:nth-child(odd) {
+    background-color: #fcf1ec;
+}
+
+button:nth-child(even) {
+    background-color: #ecf0fc;
+}
+
+.card p {
+    position: relative;
+    font-size: 15px;
+    top: 8px;
+    color: #000;
+}
+
+button:nth-child(even) .far {
+    color: #a7b9f1;
+}
+
+button:nth-child(odd) .far {
+    color: #f1a8a7;
+}
+
+i.far.fa-school {
+    position: relative;
+    left: 45px;
+    bottom: 20px;
+    font-size: 1.5rem;
+}
+
+
+/* ------------------ 4. Tablet Size ------------------ */
+
+
+/* --- Write your responsive code to the tablet size here and update the table of contents please!--- */
+
+
+/* ------------------ 5. Desktop Size ------------------ */
+
+
+/* --- Write your responsive code to the desktop size here and update the table of contents please!--- */
