@@ -1,3 +1,8 @@
+var menu = document.getElementById("display-menu");
+
+function show() {
+    menu.classList.toggle('hide')
+  }
 function fontAwesome() {
     var css = document.createElement("link");
     css.href = "https://pro.fontawesome.com/releases/v5.10.0/css/all.css";

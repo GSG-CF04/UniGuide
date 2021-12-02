@@ -14,10 +14,24 @@
 <body>
 
     <header>
-        <nav class="header ">
-            <span id="logo"><b>UNIGUIDE</b></span>
-            <i class="fas fa-align-right fa-flip-vertical menuIcon"></i>
-        </nav>
+        <nav class="header">
+             <div>
+                <span id="logo"><b>UNIGUIDE</b></span>
+            </div>
+
+            <div>
+                <button onclick="show()">
+                  <i id="menu-icon" class="fas fa-align-right fa-flip-vertical"></i>
+                </button>
+      
+                <div id="display-menu" class="hide">
+                  <div id="mobile-menu">
+                    <a class="menu-items" href="../index.html">Home</a>
+                    <a class="menu-items" href="../searchPage/search.html">Search</a>
+                    <a class="menu-items" href="../aboutPage/about.html">About Us</a>
+                  </div>
+                </div>
+            </div>
     </header>
 
     <main>
