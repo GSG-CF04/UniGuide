@@ -27,7 +27,6 @@
  }
 
  #mobile-menu {
-  margin-right: 20px;
   background-color: #ecf4fc;
   width: 120px;
   height: 180px;
@@ -35,8 +34,7 @@
   flex-direction: column;
   justify-content: space-around;
   position: fixed;
-  right: 30px;
-  margin-right: 0.5rem;
+  right: 2.3rem;
   border-top-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
