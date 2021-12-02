@@ -1,11 +1,8 @@
+var menu = document.getElementById("display-menu");
+
 function show() {
-  var menu = document.getElementById("show");
-  if (menu.style.display === "none") {
-    menu.style.display = "block";
-  } else {
-    menu.style.display = "none";
+    menu.classList.toggle('hide')
   }
-}
 
 let slideIndex = 1;
 showSlides(slideIndex);

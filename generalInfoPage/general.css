@@ -21,7 +21,7 @@ header {
   font-size: 1.5rem;
 }
 
-.menuIcon {
+.menu-icon {
   font-size: 1.5rem;
 }
 .btn-universities {
@@ -90,7 +90,7 @@ header {
   border-bottom-left-radius: 0.5rem;
 }
 
-#show {
+.hide{
   display: none;
 }
 
