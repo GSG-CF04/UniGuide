@@ -1,24 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="search.css">
-        <script src="https://kit.fontawesome.com/2f327f6fc8.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
-        <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="search.css" />
+    <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Uni Guide</title>
+  </head>
+  <body>
     <header>
-        <nav class="header">
-            <span id="logo"><b>UNIGUIDE</b></span>
-            <i class="fas fa-align-right fa-flip-vertical menuIcon"></i>
+      <nav class="header">
+        <div>
+          <span id="logo"><b>UNIGUIDE</b></span>
+        </div>
 
-
-        </nav>
+        <div>
+          <i id="menuIcon" class="fas fa-align-right fa-flip-vertical"></i>
+        </div>
+      </nav>
     </header>
-    <script src="search.js"></script>
 
-</body>
+    <div id="serach-container">
+      <div id="ima">
+        <img id="image" src="../img/searchImage.png" alt="" />
+      </div>
+
+      <div id="input-field">
+        <i id="search-icon" class="fas fa-search icon"></i>
+        <input
+          list="countries"
+          id="input"
+          name=""
+          placeholder="Enter country name"
+        />
+
+        <datalist id="countries">
+          <option value="Turkey"></option>
+          <option value="Itali"></option>
+          <option value="Egypt"></option>
+          <option value="Palestine"></option>
+          <option value="Spain"></option>
+        </datalist>
+      </div>
+    </div>
+
+    <p id="most">Most popular</p>
+
+    <div id="most-popular">
+      <div id="egypt-trkey">
+        <div id="egypt">
+          <span class="country">Egypt</span>
+        </div>
+
+        <div id="turkey">
+          <span class="country">Turkey</span>
+        </div>
+      </div>
+
+      <div id="italy-spain">
+        <div id="italy">
+          <span class="country">Italy</span>
+        </div>
+
+        <div id="spain">
+          <span class="country">Spain</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="search.js"></script>
+  </body>
 </html>
