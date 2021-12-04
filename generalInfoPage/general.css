@@ -21,7 +21,7 @@ header {
   font-size: 1.5rem;
 }
 
-.menu-icon {
+.menuIcon {
   font-size: 1.5rem;
 }
 .btn-universities {
@@ -74,38 +74,5 @@ header {
 .country-img {
   width: 92vw;
   height: 27vh;
-}
-
-#mobile-menu {
-  background-color: #ecf4fc;
-  width: 120px;
-  height: 180px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  position: fixed;
-  right: 2.3rem;
-  border-top-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
-
-.hide{
-  display: none;
-}
-
-.menu-items {
-  margin-left: 0.5rem;
-  text-decoration: none;
-}
-
-button{
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-  height: 20px;
+  object-fit: cover;
 }
