@@ -3,6 +3,11 @@ var menu = document.getElementById("display-menu");
 const searchCountry = document.getElementById("countries"); // the datalist of countires
 const inputCountry = document.getElementById("input"); // the choosen country
 let selectedCountry; // storing the choosen country
+// declaring most popular countries
+const italy = document.getElementById("italy");
+const spain = document.getElementById("spain");
+const turkey = document.getElementById("turkey");
+const egypt = document.getElementById("egypt");
 //listing all countries
 const countries = [
   "Afghanistan",
@@ -268,5 +273,25 @@ const changeCountry = () => {
   window.location.href = "../generalInfoPage/general.html"; //transfer us to the general info page ;
   inputCountry.value = ""; //to rest (empty) the search text
 };
+// the function for the most popular countries
+const setCountry = (country) => {
+  localStorage.setItem("selectedCountry", country);
+  window.location.href = "../generalInfopage/general.html";
+};
+
+// for static countries
+italy.addEventListener("click", () => {
+  setCountry("italy");
+});
+spain.addEventListener("click", () => {
+  setCountry("spain");
+});
+turkey.addEventListener("click", () => {
+  setCountry("turkey");
+});
+egypt.addEventListener("click", () => {
+  setCountry("egypt");
+});
+
 // calling the changeCountry function on every change for the input value
 inputCountry.addEventListener("change", changeCountry);
