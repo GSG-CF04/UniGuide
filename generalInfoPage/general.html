@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="general.css" />
+    <script
+      src="https://kit.fontawesome.com/2f327f6fc8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Uni Guide</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="general.css">
-    <script src="https://kit.fontawesome.com/2f327f6fc8.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
-    <title>UNIGUIDE</title>
-</head>
-<body>
+  <body>
     <header>
-        <nav class="header">
-            <div>
-                <span id="logo"><b>UNIGUIDE</b></span>
-              </div>
       
-              <div>
-                  <button onclick="show()">
-                    <i id="menu-icon" class="fas fa-align-right fa-flip-vertical"></i>
-                  </button>
-        
-                  <div id="display-menu" class="hide">
-                    <div id="mobile-menu">
-                      <a class="menu-items" href="../index.html">Home</a>
-                      <a class="menu-items" href="../searchPage/search.html">Search</a>
-                      <a class="menu-items" href="../aboutPage/about.html">About Us</a>
-                    </div>
-                  </div>
+      <nav class="header">
+        <div>
+            <span id="logo"><b>UNIGUIDE</b></span>
+          </div>
+
+          <div>
+              <button onclick="show()">
+                <i id="menu-icon" class="fas fa-align-right fa-flip-vertical"></i>
+              </button>
+
+              <div id="display-menu" class="hide">
+                <div id="mobile-menu">
+                  <a class="menu-items" href="../index.html">Home</a>
+                  <a class="menu-items" href="../searchPage/search.html">Search</a>
+                  <a class="menu-items" href="../aboutPage/about.html">About Us</a>
                 </div>
-        </nav>
+              </div>
+            </div>
+    </nav>
     </header>
+
     <section class="info-section">
-      <img class="country-img" src="/img/turkeyFlag.png" alt="">
-        <div class="all-info">
-        <div class="info-div">
-          <div > <p class="country-info"><b>Turkey</b></p></div> 
-          <div class="row-info"> <i class="fas fa-money-bill-wave icons"></i><p class="P-icon"> Turkish-lira</p></div> 
-          <div class="row-info">  <i class="far fa-comment-dots icons"></i><p class="P-icon">Turkish</p></div>
-         <div class="row-info">  <i class="fas fa-phone-alt icons"></i><p class="P-icon">+90</p></div> 
-           <div class="row-info"><i class="fas fa-globe-americas icons"></i><p class="P-icon">Asia</p></div> 
-        </div>
-        <button class="btn-universities"><a class="btn-a" href="/Universities Page/Universities.html">Go to universities
-                list</a></button>
-</div>
+      <div>
+        <div class="info-div"></div>
+        <button class="btn-universities">
+          <a class="btn-a" href="../universitiesPage/universities.html"
+            >Go to universities list</a
+          >
+        </button>
+      </div>
     </section>
+
     <script src="general.js"></script>
-</body>
+  </body>
 </html>
