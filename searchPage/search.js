@@ -276,7 +276,7 @@ const changeCountry = () => {
 // the function for the most popular countries
 const setCountry = (country) => {
   localStorage.setItem("selectedCountry", country);
-  window.location.href = "../generalInfopage/general.html";
+  window.location.href = "../generalInfoPage/general.html";
 };
 
 // for static countries
