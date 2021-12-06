@@ -21,7 +21,7 @@ header {
   font-size: 1.5rem;
 }
 
-.menu-icon {
+#menu-icon{
   font-size: 1.5rem;
 }
 .btn-universities {
@@ -74,8 +74,8 @@ header {
 .country-img {
   width: 92vw;
   height: 27vh;
+  object-fit: cover;
 }
-
 #mobile-menu {
   background-color: #ecf4fc;
   width: 120px;
@@ -107,5 +107,4 @@ button{
   font: inherit;
   cursor: pointer;
   outline: inherit;
-  height: 20px;
-}
+  height: 20px;}
