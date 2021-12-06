@@ -1,184 +1,241 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
 * {
-  padding: 0;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
 }
+
 header {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 .header {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 3.7vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.7vh;
 }
+
 #logo {
-  font-family: "Roboto", sans-serif;
-  color: #4096df;
-  font-size: 1.5rem;
+    color: #4096df;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 #menu-icon {
-  font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 #image {
-  margin-bottom: 0%;
-  margin-top: 1.5rem;
+    margin-bottom: 0%;
+    margin-top: 1rem;
+    width: 80vw;
+    height: 40vh;
 }
 
 #ima {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
 }
 
 #most {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  margin-left: 1.5rem;
-  margin-top: 0.8rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+    margin-top: 0.8rem;
+    font-weight: bold;
 }
 
 #search-icon {
-  font-size: 1.3rem;
-  margin: 5px 5px 0px 5px;
-  color: #a6a6a6;
+    font-size: 1.3rem;
+    margin: 5px 5px 0px 5px;
+    color: #a6a6a6;
 }
 
 #serach-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  align-content: center;
-  height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+    height: 35vh;
+    margin-top: 1.5rem;
 }
 
 input::-webkit-input-placeholder {
-  font-size: 20px;
-  line-height: 3;
+    font-size: 20px;
+    /* line-height: 3; */
 }
 
 #input {
-  display: flex;
-  border: none;
-  flex: 1;
-  background-color: #f6f6f8;
-  height: 100%;
+    display: flex;
+    border: none;
+    flex: 1;
+    background-color: #f6f6f8;
+    height: 5vh;
 }
 
 #input-field {
-  border: none;
-  display: flex;
-  flex-direction: row;
-  border-radius: 1rem;
-  width: 90vw;
-  background-color: #f6f6f8;
-  padding: 10px;
-  margin-left: 0.8rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    width: 90vw;
+    background-color: #f6f6f8;
+    /* padding: 10px; */
+    margin-left: 0.8rem;
+    margin-top: -23px;
 }
 
 #most-popular {
-  display: flex;
-  flex-direction: column;
-  height: 40vh;
-  justify-content: space-between;
-  width: 100%;
-  align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-between;
+    width: 100%;
+    align-self: center;
 }
 
 #egypt {
-  background-image: url(../img/egypt.png);
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 100%;
-  display: flex;
+    background-image: url(../img/egypt.png);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    background-size: 100% 100%;
+
 }
 
 #turkey {
-  background-image: url(../img/turkey.png);
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 100%;
-  display: flex;
+    background-image: url(../img/turkey.png);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    background-size: 100% 100%;
 }
 
 #italy {
-  background-image: url(../img/italy.png);
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 100%;
-  display: flex;
+    background-image: url(../img/italy.png);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    background-size: 100% 100%;
 }
 
 #spain {
-  background-image: url(../img/spain.png);
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 100%;
-  display: flex;
+    background-image: url(../img/spain.png);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    background-size: 100% 100%;
+
 }
 
 .country {
-  position: relative;
-  top: 80px;
-  left: 15px;
-  margin-top: 30px;
-  color: white;
-  font-size: 1.2rem;
-  height: 5vh;
+    position: relative;
+    top: 80px;
+    left: 15px;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    height: 5vh;
 }
 
 #egypt-trkey {
-  display: flex;
-  flex-direction: row;
-  height: 48%;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    height: 48%;
+    justify-content: space-around;
 }
 
 #italy-spain {
-  display: flex;
-  flex-direction: row;
-  height: 48%;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    height: 48%;
+    justify-content: space-around;
 }
 
 #mobile-menu {
-  background-color: #ecf4fc;
-  width: 120px;
-  height: 180px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  position: fixed;
-  right: 2.3rem;
-  border-top-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+    background-color: #ecf4fc;
+    width: 120px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    right: 2.3rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
-.hide{
-  display: none;
+.hide {
+    display: none;
 }
 
 .menu-items {
-  margin-left: 0.5rem;
-  text-decoration: none;
+    margin-left: 0.5rem;
+    text-decoration: none;
 }
 
-button{
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-  height: 20px;
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    height: 20px;
+}
+
+#list {
+    display: none;
+}
+
+#second-block {
+    margin-top: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        margin-top: 1vh;
+    }
+
+   
+    #list {
+        display: block;
+    }
+    nav {
+        align-items: center;
+    }
+    li {
+        display: inline-block;
+        line-height: 80px;
+        text-align: center;
+    }
+    nav a {
+        color: black;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        padding: 7px 10px;
+        text-decoration: none;
+        margin-right: 4rem;
+    }
+    #active {
+        color: #4096df;
+    }
+    #menu {
+        display: none;
+    }
+    #logo {
+        margin-left: 1rem;
+    }
 }

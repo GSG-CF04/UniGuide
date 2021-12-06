@@ -1,81 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="search.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
-    <title>Uni Guide</title>
-  </head>
-  <body>
+    <script type="text/javascript">
+        (function() {
+            var css = document.createElement('link');
+            css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+    </script>
+    <title>Search</title>
+</head>
+
+<body>
     <header>
-      <nav class="header">
-        <div>
-          <span id="logo"><b>UNIGUIDE</b></span>
-        </div>
-
-        <div>
-          <button onclick="show()">
-            <i id="menu-icon" class="fas fa-align-right fa-flip-vertical"></i>
-          </button>
-
-          <div id="display-menu" class="hide">
-            <div id="mobile-menu">
-              <a class="menu-items" href="../index.html">Home</a>
-              <a class="menu-items" href="search.html">Search</a>
-              <a class="menu-items" href="../aboutPage/about.html">About Us</a>
+        <nav class="header">
+            <div>
+                <span id="logo">UNIGUIDE</span>
             </div>
-          </div>
-        </div>
-      </nav>
+
+            <div>
+
+                <ul id="list">
+                    <li><a href="../index.html">home</a></li>
+                    <li id="search"><a id="active" href="search.html">search</a></li>
+                    <li><a href="../aboutPage/about.html">about us</a></li>
+                </ul>
+
+            </div>
+
+            <div id="menu">
+                <button onclick="show()">
+                    <i id="menu-icon" class="fas fa-align-right fa-flip-vertical"></i>
+                </button>
+
+                <div id="display-menu" class="hide">
+                    <div id="mobile-menu">
+                        <a class="menu-items" href="../index.html">Home</a>
+                        <a class="menu-items" href="search.html">Search</a>
+                        <a class="menu-items" href="../aboutPage/about.html">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <div id="serach-container">
-      <div id="ima">
-        <img id="image" src="../img/searchImage.png" alt="" />
-      </div>
+    <div id="big-container">
 
-      <div id="input-field">
-        <i id="search-icon" class="fas fa-search icon"></i>
-        <input
-          list="countries"
-          id="input"
-          name=""
-          placeholder="Enter country name"
-        />
+        <div id="serach-container">
+            <div id="ima">
+                <img id="image" src="../img/search.svg" alt="" />
+            </div>
 
-        <datalist id="countries"> </datalist>
-      </div>
-    </div>
+            <div class="search-section">
+                <div id="input-field">
+                    <i id="search-icon" class="fas fa-search icon"></i>
+                    <input list="countries" id="input" name="" placeholder="Enter country name" />
 
-    <p id="most">Most popular</p>
-
-    <div id="most-popular">
-      <div id="egypt-trkey">
-        <div id="egypt">
-          <span class="country">Egypt</span>
+                    <datalist id="countries">
+                    <option value="Turkey"></option>
+                    <option value="Itali"></option>
+                    <option value="Egypt"></option>
+                    <option value="Palestine"></option>
+                    <option value="Spain"></option>
+                </datalist>
+                </div>
+            </div>
         </div>
 
-        <div id="turkey">
-          <span class="country">Turkey</span>
-        </div>
-      </div>
+        <div id="second-block">
 
-      <div id="italy-spain">
-        <div id="italy">
-          <span class="country">Italy</span>
-        </div>
+            <p id="most">Most popular</p>
 
-        <div id="spain">
-          <span class="country">Spain</span>
+            <div id="most-popular">
+                <div id="egypt-trkey">
+                    <div id="egypt">
+                        <span class="country">Egypt</span>
+                    </div>
+
+                    <div id="turkey">
+                        <span class="country">Turkey</span>
+                    </div>
+                </div>
+
+                <div id="italy-spain">
+                    <div id="italy">
+                        <span class="country">Italy</span>
+                    </div>
+
+                    <div id="spain">
+                        <span class="country">Spain</span>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <script src="search.js"></script>
-  </body>
+</body>
+
 </html>

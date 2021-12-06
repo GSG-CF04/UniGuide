@@ -166,3 +166,43 @@ i.far.fa-school {
 
 /* --- Write your responsive code to the desktop size here and update the table of contents please!--- */
 
+#list {
+    display: none;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .header {
+        margin-top: 1vh;
+    }
+
+   
+    #list {
+        display: block;
+    }
+    nav {
+        align-items: center;
+    }
+    li {
+        display: inline-block;
+        line-height: 80px;
+        text-align: center;
+    }
+    nav a {
+        color: black;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        padding: 7px 10px;
+        text-decoration: none;
+        margin-right: 4rem;
+    }
+    #active {
+        color: #4096df;
+    }
+    #menu {
+        display: none;
+    }
+    #logo {
+        margin-left: 1rem;
+    }
+}
