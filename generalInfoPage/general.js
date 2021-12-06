@@ -2,6 +2,7 @@ var menu = document.getElementById("display-menu");
 let selectedCountry = localStorage.getItem("selectedCountry");
 const Infocontainer = document.querySelector(".info-div");
 const InfoSection = document.querySelector(".info-section");
+const title = document.getElementById("title");
 function show() {
   menu.classList.toggle('hide')
 } 
@@ -24,7 +25,7 @@ const generateImage = (country) => {
       return e;
     });
 };
-
+title.innerHTML = selectedCountry;
 generateImage(`${selectedCountry} capital city`);
 
 const generateCountryInfo = (country) => {
