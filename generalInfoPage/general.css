@@ -114,7 +114,7 @@ button{
   }
 
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 1024) {
     .header {
         margin-top: 1vh;
     }
@@ -148,4 +148,40 @@ button{
     #logo {
         margin-left: 1rem;
     }
+}
+
+@media only screen and (min-width: 1024px){
+  .header {
+      margin-top: 1vh;
+  }
+
+ 
+  #list {
+      display: block;
+  }
+  nav {
+      align-items: center;
+  }
+  li {
+      display: inline-block;
+      line-height: 80px;
+      text-align: center;
+  }
+  nav a {
+      color: black;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      padding: 7px 10px;
+      text-decoration: none;
+      margin-right: 4rem;
+  }
+  #active {
+      color: #4096df;
+  }
+  #menu {
+      display: none;
+  }
+  #logo {
+      margin-left: 1rem;
+  }
 }
