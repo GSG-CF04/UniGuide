@@ -70,7 +70,7 @@ header {
   text-decoration: none;
 }
 
-button{
+#menu-button{
   background: none;
   color: inherit;
   border: none;
