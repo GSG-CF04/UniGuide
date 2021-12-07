@@ -239,7 +239,103 @@ button {
     #logo {
         margin-left: 1rem;
     }
+
+
+
+
+
+    #ima {
+        margin-top: 20vh;
+        width: 40vw;
+        /* margin-left: 2rem; */
+    }
+    #input-field {
+        width: 30vw;
+        padding: 0px;
+        margin-left: 10px;
+    }
+    .search-section {
+        position: absolute;
+        background-color: #4096df;
+        padding: 2rem 2rem 2rem 3rem;
+        width: 45vw;
+        margin-left: 5vw;
+
+        margin-bottom: 46vh;
+        border-radius: 0 0 50px 50px;
+    }
+    input::-webkit-input-placeholder {
+        
+        line-height:50px
+    }
+     #search-icon{
+        margin-top: 17px;
+        margin-left: 15px;
+    }
+
+    #input{
+        margin-top: 5px;
+        height: 50px;
+        margin-right: 10px;
+        text-indent: 10px;
+        }
+    
+    #big-container {
+        display: flex;
+        flex-direction: row;
+        height: 89vh;
+       justify-content: space-between; 
+    }
+    #serach-container {
+        flex-direction: column;
+        width: 40vw;
+        height: 55%;
+        margin-top: 7rem;
+        margin-bottom: auto;
+    }
+    #second-block {
+        margin-left: 10vw;
+    }
+    #most-popular {
+        height: 70%;
+        width: 45vw;
+    }
+    #egypt-trkey,
+    #italy-spain {
+        height: 30vh;
+        justify-content: start;
+        align-items: center;
+        width: auto;
+    }
+    #turkey,
+    #italy,
+    #egypt,
+    #spain {
+        background-size: 100% 100%;
+        height: 80%;
+        object-fit: cover;
+        margin-left: 2rem;
+    }
+    #most {
+        padding-right: 10rem;
+        font-weight: bold;
+        font-size: 1.7rem;
+        margin-bottom: 1.5rem;
+        margin-left: 2rem;
+        
+    }
+    #image {
+        width: 100%;
+        height: 480px;
+        margin-top: 0rem;
+        margin-left: 8rem;
+    }
 }
+
+
+
+
+
 
 @media only screen and (min-width: 1024px) {
   .header {
@@ -275,4 +371,101 @@ button {
   #logo {
       margin-left: 1rem;
   }
+
+
+
+
+ 
+    #input-field {
+        width: 30vw;
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    #ima{
+        margin-top: 30%;
+    }
+    .search-section {
+        position: absolute;
+        background-color: #4096df;
+        padding: 2rem 1rem 2rem 4rem;
+        width: 45vw;
+        margin-left: 5vw;
+
+        margin-bottom: 55vh;
+        border-radius: 0 0 50px 50px;
+    }
+    input::-webkit-input-placeholder {
+        
+        line-height:50px
+    }
+     #search-icon{
+        margin-top: 17px;
+        margin-left: 15px;
+    }
+
+    #input{
+        margin-top: 5px;
+        height: 50px;
+        margin-right: 10px;
+        text-indent: 10px;
+        } 
+    
+    #big-container {
+        display: flex;
+        flex-direction: row;
+        height: 89vh;
+       justify-content: space-between; 
+    }
+    #serach-container {
+        flex-direction: column;
+        width: 40vw;
+        height: 55%;
+        margin-top: 7rem;
+        margin-bottom: auto;
+    }
+    #second-block {
+        margin-left: 10vw;
+        width: 100%;
+    }
+    #most-popular {
+        height: 80%;
+        width: 40vw;
+    }
+    #egypt-trkey,
+    #italy-spain {
+        height: 40vh;
+        justify-content: start;
+        align-items: center;
+        width: 50vw;
+    }
+    #turkey,
+    #italy,
+    #egypt,
+    #spain {
+        background-size: 100% 100%;
+        height: 80%;
+        object-fit: cover;
+        margin-left: 2rem;
+    }
+    #most {
+        padding-right: 10rem;
+        font-weight: bold;
+        font-size: 1.7rem;
+        margin-bottom: 1.5rem;
+        margin-left: 2rem;
+        
+    }
+    #image {
+        width: 500px;
+        height: 480px;
+        margin-top: 0rem;
+        margin-left: 8rem;
+    }
 }
+
+
+
+
+
+
