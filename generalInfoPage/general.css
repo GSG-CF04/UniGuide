@@ -114,7 +114,7 @@ button{
   }
 
 
-  @media only screen and (min-width: 768px) and (max-width: 1024) {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .header {
         margin-top: 1vh;
     }
