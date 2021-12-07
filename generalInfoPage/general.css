@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
 * {
   padding: 0;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 header {
   display: flex;
@@ -15,10 +17,9 @@ header {
   margin-top: 3.7vh;
 }
 #logo {
-  font-family: "Roboto", sans-serif;
-  color: #4096df;
-
-  font-size: 1.5rem;
+    color: #4096df;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 #menu-icon{
@@ -108,3 +109,80 @@ button{
   cursor: pointer;
   outline: inherit;
   height: 20px;}
+
+  #list {
+    display: none;
+  }
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    .header {
+        margin-top: 1vh;
+    }
+
+   
+    #list {
+        display: block;
+    }
+    nav {
+        align-items: center;
+    }
+    li {
+        display: inline-block;
+        line-height: 80px;
+        text-align: center;
+    }
+    nav a {
+        color: black;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        padding: 7px 10px;
+        text-decoration: none;
+        margin-right: 4rem;
+    }
+    #active {
+        color: #4096df;
+    }
+    #menu {
+        display: none;
+    }
+    #logo {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+  .header {
+      margin-top: 1vh;
+  }
+
+ 
+  #list {
+      display: block;
+  }
+  nav {
+      align-items: center;
+  }
+  li {
+      display: inline-block;
+      line-height: 80px;
+      text-align: center;
+  }
+  nav a {
+      color: black;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      padding: 7px 10px;
+      text-decoration: none;
+      margin-right: 4rem;
+  }
+  #active {
+      color: #4096df;
+  }
+  #menu {
+      display: none;
+  }
+  #logo {
+      margin-left: 1rem;
+  }
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="UTF-8">
@@ -10,28 +9,36 @@
     <title>Universities</title>
 
 </head>
-
 <body>
-
     <header>
         <nav class="header">
             <div>
-                <span id="logo"><b>UNIGUIDE</b></span>
-            </div>
+                <span id="logo">UNIGUIDE</span>
+        </div>
 
-            <div>
-                <button onclick="show()">
-                    <i id="menu-icon" class="fas fa-align-right fa-flip-vertical"></i>
-                </button>
+        <div>
 
-                <div id="display-menu" class="hide">
-                    <div id="mobile-menu">
-                        <a class="menu-items" href="../index.html">Home</a>
-                        <a class="menu-items" href="../searchPage/search.html">Search</a>
-                        <a class="menu-items" href="../aboutPage/about.html">About Us</a>
-                    </div>
+            <ul id="list">
+                    <li><a href="../index.html">home</a></li>
+                    <li id="search"><a href="search.html">search</a></li>
+                    <li><a href="../aboutPage/about.html">about us</a></li>
+            </ul>
+    
+        </div>
+
+        <div id="menu">
+            <button id="menu-button" onclick="show()">
+                <i id="menu-icon" class="fas fa-align-right fa-flip-vertical"></i>
+            </button>
+      
+            <div id="display-menu" class="hide">
+                <div id="mobile-menu">
+                    <a class="menu-items" href="../index.html">Home</a>
+                    <a class="menu-items" href="../searchPage/search.html">Search</a>
+                    <a class="menu-items" href="../aboutPage/about.html">About Us</a>
                 </div>
             </div>
+        </div>
     </header>
 
     <main>
