@@ -10,8 +10,8 @@
    3-1 Header Style
    3-2 Title Section Style
    3-3 Cards Section Style
-4. Tablet Size - still in progress
-5. Desktop Size - still in progress
+4. Tablet Size
+5. Desktop Size
 
 
 */
@@ -70,15 +70,15 @@ header {
     text-decoration: none;
 }
 
-#menu-button{
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-  height: 20px;
+#menu-button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    height: 20px;
 }
 
 .header {
@@ -154,27 +154,63 @@ i.far.fa-school {
     font-size: 1.5rem;
 }
 
+#list {
+    display: none;
+}
+
 
 /* ------------------ 4. Tablet Size ------------------ */
 
-
-/* --- Write your responsive code to the tablet size here and update the table of contents please!--- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        margin-top: 1vh;
+    }
+    #list {
+        display: block;
+    }
+    nav {
+        align-items: center;
+    }
+    li {
+        display: inline-block;
+        line-height: 80px;
+        text-align: center;
+    }
+    nav a {
+        color: black;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        padding: 7px 10px;
+        text-decoration: none;
+        margin-right: 4rem;
+    }
+    #active {
+        color: #4096df;
+    }
+    #menu {
+        display: none;
+    }
+    #logo {
+        margin-left: 1rem;
+    }
+    i.far.fa-school {
+        left: 130px;
+        bottom: 10px;
+    }
+    .card p {
+        font-size: 20px;
+        top: 1px;
+        left: 12px;
+    }
+}
 
 
 /* ------------------ 5. Desktop Size ------------------ */
-/* --- Write your responsive code to the desktop size here and update the table of contents please!--- */
 
-#list {
-    display: none;
-  }
-
-
-  @media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-width: 1024px) {
     .header {
         margin-top: 1vh;
     }
-
-   
     #list {
         display: block;
     }
@@ -203,41 +239,20 @@ i.far.fa-school {
     #logo {
         margin-left: 1rem;
     }
-}
-
-@media only screen and (min-width: 1024px){
-    .header {
-        margin-top: 1vh;
+    .container {
+        grid-template-columns: 33% 33% 33%;
+        margin: 0 35px;
     }
-
-   
-    #list {
-        display: block;
+    .section-title {
+        font-size: 25px;
+        padding-left: 75px;
     }
-    nav {
-        align-items: center;
+    i.far.fa-school {
+        left: 170px;
+        bottom: 15px;
     }
-    li {
-        display: inline-block;
-        line-height: 80px;
-        text-align: center;
-    }
-    nav a {
-        color: black;
-        font-size: 1.2rem;
-        text-transform: uppercase;
-        padding: 7px 10px;
-        text-decoration: none;
-        margin-right: 4rem;
-    }
-    #active {
-        color: #4096df;
-    }
-    #menu {
-        display: none;
-    }
-    #logo {
-        margin-left: 1rem;
+    .card p {
+        font-size: 20px;
+        bottom: 0px;
     }
 }
-/* --- Write your responsive code to the desktop size here and update the table of contents please!--- */
