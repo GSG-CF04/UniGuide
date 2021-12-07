@@ -89,7 +89,7 @@ header {
 }
 
 #logo {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     color: #4096df;
     font-size: 1.5rem;
 }
@@ -169,7 +169,7 @@ i.far.fa-school {
   }
 
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
     .header {
         margin-top: 1vh;
     }
