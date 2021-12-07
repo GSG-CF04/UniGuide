@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -16,7 +16,7 @@ header {
   margin-top: 3.7vh;
 }
 #logo {
-  font-family: 'Roboto' !important;
+  font-family: "Roboto" !important;
   color: #4096df;
   font-size: 1.5rem;
 }
@@ -56,15 +56,13 @@ header {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  bottom: 50px;
   width: auto;
-  margin-top: 10%;
-  padding: 3%;
+  padding: 10px;
   color: #c4c4c4;
   font-weight: bold;
   font-size: 100%;
   transition: 0.6s ease;
-  border-radius: 0 3% 3% 0;
   user-select: none;
   font-size: 1.3rem;
 }
@@ -92,7 +90,7 @@ header {
   height: 100%;
 }
 .info {
-  margin-left: 21%;
+  margin-left: 67px;
   background-color: #ecf9fc;
   width: 200px;
   height: 250px;
@@ -161,7 +159,7 @@ header {
   border-bottom-left-radius: 0.5rem;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
@@ -170,7 +168,7 @@ header {
   text-decoration: none;
 }
 
-button{
+button {
   background: none;
   color: inherit;
   border: none;
@@ -191,12 +189,11 @@ button{
   background-color: #4096df;
 } */
 
-@media only screen and (min-width: 768px)  and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .header {
     margin-top: 1vh;
   }
-  
-  
+
   #list {
     display: block;
   }
@@ -224,15 +221,44 @@ button{
   }
   #logo {
     margin-left: 1rem;
+  }
+  .about-us {
+    width: 100%;
+    margin: 2% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-para {
+    margin: 6% 5% 3% 3%;
+    font-size: 1.1rem;
+  }
+  .slideshow-container {
+    margin-top: 1rem;
+  }
+  .info {
+    height: 40vh;
+    margin-left: 0%;
+    margin: 0 auto;
+  }
+  .dot {
+    margin-top: 5rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+  .prev,
+  .next {
+    bottom: 10%;
   }
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
   .header {
     margin-top: 1vh;
   }
-  
-  
+
   #list {
     display: block;
   }
@@ -261,4 +287,65 @@ button{
   #logo {
     margin-left: 1rem;
   }
+  .about-us {
+    width: 100%;
+    margin: 2% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  .about-para {
+    margin: 6% 5% 3% 3%;
+    font-size: 1.1rem;
+  }
+  .slideshow-container {
+    margin-top: 1rem;
+  }
+  .dot {
+    margin-top: 10rem;
+  }
+  .info {
+    height: 40vh;
+    margin-left: 0%;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+  .prev,
+  .next {
+    bottom: 10%;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .about-us {
+    width: 100%;
+    margin: 2% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-para {
+    margin: 6% 5% 3% 3%;
+    font-size: 1.1rem;
+  }
+  .slideshow-container {
+    margin-top: 1rem;
+  }
+  .info {
+    height: 40vh;
+    margin-left: 0%;
+    margin: 0 auto;
+  }
+  .dot {
+    margin-top: 6rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  .prev,
+  .next {
+    bottom: 10%;
+  }
+}
