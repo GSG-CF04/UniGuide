@@ -47,27 +47,27 @@ header {
     justify-content: center;
 }
 
- #mobile-menu {
-  background-color: #ecf4fc;
-  width: 120px;
-  height: 180px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  position: fixed;
-  right: 2.3rem;
-  border-top-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+#mobile-menu {
+    background-color: #ecf4fc;
+    width: 120px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    right: 2.3rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
-.hide{
-  display: none;
+.hide {
+    display: none;
 }
 
 .menu-items {
-  margin-left: 0.5rem;
-  text-decoration: none;
+    margin-left: 0.5rem;
+    text-decoration: none;
 }
 
 #menu-button{
@@ -80,7 +80,7 @@ header {
   outline: inherit;
   height: 20px;
 }
-  
+
 .header {
     width: 90%;
     display: flex;
@@ -116,7 +116,7 @@ header {
     grid-template-columns: 50% 50%;
 }
 
-button {
+#btn-card {
     border-radius: 16px;
     padding: 30px 10px;
     margin: 0 10px 15px 15px;
@@ -124,11 +124,11 @@ button {
     border: none;
 }
 
-button:nth-child(odd) {
+#btn-card:nth-child(odd) {
     background-color: #fcf1ec;
 }
 
-button:nth-child(even) {
+#btn-card:nth-child(even) {
     background-color: #ecf0fc;
 }
 
@@ -139,11 +139,11 @@ button:nth-child(even) {
     color: #000;
 }
 
-button:nth-child(even) .far {
+#btn-card:nth-child(even) .far {
     color: #a7b9f1;
 }
 
-button:nth-child(odd) .far {
+#btn-card:nth-child(odd) .far {
     color: #f1a8a7;
 }
 
@@ -162,8 +162,6 @@ i.far.fa-school {
 
 
 /* ------------------ 5. Desktop Size ------------------ */
-
-
 /* --- Write your responsive code to the desktop size here and update the table of contents please!--- */
 
 #list {
@@ -242,3 +240,4 @@ i.far.fa-school {
         margin-left: 1rem;
     }
 }
+/* --- Write your responsive code to the desktop size here and update the table of contents please!--- */
